@@ -1,0 +1,89 @@
+[{
+  "_id": {
+    "$oid": "60d824b93f2d982f5437c151"
+  },
+  "nombre": "polera azul",
+  "texto": "no me gusta su color",
+  "puntuacion": 2,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d8253c3f2d982f5437c152"
+  },
+  "nombre": "polera roja",
+  "texto": "hermosa polera",
+  "puntuacion": 4,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d8262f3f2d982f5437c153"
+  },
+  "nombre": "polera roja",
+  "texto": "asdadaddasd ",
+  "puntuacion": 3,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d96837283b380bfca33335"
+  },
+  "nombre": "zapatos rosados",
+  "texto": "asdadadsad",
+  "puntuacion": 2,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d969369b50e91b70c21ae3"
+  },
+  "nombre": "zapatos rosados",
+  "texto": "pio",
+  "puntuacion": 2,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d96a3bd7aebc3974559e8c"
+  },
+  "nombre": "zapatos rosados",
+  "texto": "bnu",
+  "puntuacion": 2,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d96b0a344d841d0cc354d5"
+  },
+  "nombre": "zapatos rosados",
+  "texto": "no son como me gustan",
+  "puntuacion": 2,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d96b66344d841d0cc354d6"
+  },
+  "nombre": "zapatos rosados",
+  "texto": "dsfsf",
+  "puntuacion": 5,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d96f9e344d841d0cc354d7"
+  },
+  "nombre": "zapatos rosados",
+  "texto": "muy buen producto",
+  "puntuacion": 5,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d9faff40d04c1cf40d47e8"
+  },
+  "nombre": "polera negra",
+  "texto": "sadadadasd",
+  "puntuacion": 0,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d9fb2740d04c1cf40d47e9"
+  },
+  "nombre": "polera negra",
+  "texto": "",
+  "puntuacion": 5,
+  "__v": 0
+}]

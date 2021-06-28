@@ -1,0 +1,118 @@
+[{
+  "_id": {
+    "$oid": "60c7f020805bde26800ffc84"
+  },
+  "nombres": "ppd",
+  "apellidos": "bbs",
+  "direccion": "sdad",
+  "rut": "2017244-0",
+  "region": "valparíso",
+  "comuna": "sad",
+  "email": "p@d",
+  "contraseña": "12345",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d12272b97acb349473cdcc"
+  },
+  "nombres": "diego",
+  "apellidos": "urbe ",
+  "direccion": "en mi casa",
+  "rut": "2017244-0",
+  "region": "Los Rios",
+  "comuna": "flas",
+  "email": "p@j",
+  "contraseña": "hola123",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d2ac1a98eca92c5cdb311f"
+  },
+  "nombres": "ajjajaa",
+  "apellidos": "sadasd",
+  "direccion": "sadasd",
+  "rut": "2017244-0",
+  "region": "Araucanía",
+  "comuna": "sada",
+  "email": "p@ggg",
+  "contraseña": "roma3245",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d2afabe44b8b37dcf67bc6"
+  },
+  "nombres": "jisi",
+  "apellidos": "jasa",
+  "direccion": "sda",
+  "rut": "2017244-0",
+  "region": "Magallanes",
+  "comuna": "asda",
+  "email": "p@ddddd",
+  "contraseña": "cambio345",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d2b082a6f66a3a78d39994"
+  },
+  "nombres": "asda",
+  "apellidos": "dsad",
+  "direccion": "weqweq",
+  "rut": "2017244-0",
+  "region": "Coquimbo",
+  "comuna": "sda",
+  "email": "plpl@f",
+  "contraseña": "22222",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d56b10ed8dee1d3091c33d"
+  },
+  "nombres": "maria",
+  "apellidos": "rojas",
+  "direccion": "esmeralda",
+  "rut": "13567890-2",
+  "region": "Valparaíso",
+  "comuna": "valparaiso",
+  "email": "maria@gmail.com",
+  "contraseña": "maria1234",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d790eab86b3a2f80123024"
+  },
+  "nombres": "asdada",
+  "apellidos": "sada",
+  "direccion": "asdad",
+  "rut": "2017244-0",
+  "region": "Atacama",
+  "comuna": "dsad",
+  "email": "aspdlada@ff",
+  "contraseña": "12345678",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60d791f5b86b3a2f80123025"
+  },
+  "nombres": "sadad",
+  "apellidos": "canales ",
+  "direccion": "valparaiso",
+  "rut": "8345678-0",
+  "region": "Valparaíso",
+  "comuna": "valparaiso",
+  "email": "edr@gmail.com",
+  "contraseña": "nose123456",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60da13b1aff7610450cbd102"
+  },
+  "nombres": "diego ",
+  "apellidos": "fuentes",
+  "direccion": "3 norte",
+  "rut": "8567790-0",
+  "region": "Valparaíso",
+  "comuna": "viña del mar",
+  "email": "diego@gmail.com",
+  "contraseña": "diego123456",
+  "__v": 0
+}]

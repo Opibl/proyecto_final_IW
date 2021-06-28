@@ -1,0 +1,21 @@
+li {
+    list-style: none;
+}
+
+.imagen{
+    height: 4em;
+    width: 4em;
+}
+
+
+#carritoVacio{
+    width: 20em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    display: flex;
+    white-space: nowrap;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}

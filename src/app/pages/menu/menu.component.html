@@ -1,0 +1,70 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+            <a class="nav-link"  href="">Inicio <span class="sr-only"></span></a>
+        </li>
+
+
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Menú de Categorias
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+              <a class="dropdown-item" [routerLink]="['/polerones']" routerLinkActive="router-link-active">polerones</a>
+              <a class="dropdown-item" [routerLink]="['/zapatos']" routerLinkActive="router-link-active">zapatos</a>
+              <a class="dropdown-item" [routerLink]="['/poleras']" routerLinkActive="router-link-active" >poleras</a>
+              <a class="dropdown-item" [routerLink]="['/pantalones']" routerLinkActive="router-link-active">pantalones</a>
+              <a class="dropdown-item" [routerLink]="['/jeans']" routerLinkActive="router-link-active">jeans</a>
+              <a class="dropdown-item" [routerLink]="['/shorts']" routerLinkActive="router-link-active">shorts</a>
+              <a class="dropdown-item" [routerLink]="['/camisas']" routerLinkActive="router-link-active">camisas</a>
+
+            </div>
+        </li>
+
+
+        <li *ngIf="logeado != 'ok'" class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Cuenta
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+              <a class="dropdown-item" [routerLink]="['/iniciarsesion']" routerLinkActive="router-link-active">Iniciar sesión</a>
+              <a class="dropdown-item" [routerLink]="['/registrarse']" routerLinkActive="router-link-active">Registrarse</a>
+              <a class="dropdown-item" [routerLink]="['/inicioAdmin']" routerLinkActive="router-link-active">Iniciar como administrador</a>
+            </div>
+        </li>
+
+
+        <li *ngIf="logeado === 'ok'" class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            {{nombre}}
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+
+            <a class="dropdown-item"  (click) = "verPerfil()">perfil</a>
+            <a class="dropdown-item" href="" (click) = "cerrarSesion()">cerrar sesion</a>
+            
+          </div>
+        </li>
+
+        <li *ngIf="logeadoAdmin === 'ok'" class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            admin
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+            <a class="dropdown-item"  [routerLink]="['/reportes']" routerLinkActive="router-link-active" >ver reportes</a>
+            <a class="dropdown-item" href="" (click) = "cerrarSesionAdmin()">cerrar sesion</a>
+            
+          </div>
+        </li>
+
+        
+        <a [routerLink]="['/carritoCompras']" routerLinkActive="router-link-active"  class="carrito"><i class="fas fa-shopping-cart fa-2x">{{cantProducts}}</i></a>
+        
+      </ul>
+    </div>
+  </nav>

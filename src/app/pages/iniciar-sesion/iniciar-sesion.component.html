@@ -1,0 +1,52 @@
+<form [formGroup]="formulario" (ngSubmit)="Crear()" id="formulario" role="ingreso"  novalidate >
+    <ul>
+        <div class="mb-3">
+            <li>
+                Email
+                <br>
+                <input formControlName = "email" type="email" >
+            </li>
+    
+            <span *ngIf="this.formulario.get('email')?.errors?.required">
+              <div id = "camp" class="alert alert-primary" role="alert">
+                <p>¡Campo requerido!</p>
+              </div>
+            </span>
+
+            
+            <span *ngIf="this.formulario.get('email')?.errors?.email">
+              <div id = "camp" class="alert alert-primary" role="alert" >
+                  <p>formato invalido recuerde poner un mail valido ejemplo:example@gmail.com</p>
+              </div>
+            </span>
+        </div>   
+
+
+        <div class="mb-3">
+            <li>
+                Contraseña
+                <br>
+                <input formControlName = "contraseña" type="password">
+            </li>
+    
+            <span *ngIf="this.formulario.get('contraseña')?.errors?.required">
+              <div id = "camp" class="alert alert-primary" role="alert">
+                <p>¡Campo requerido!</p>
+              </div>
+            </span>
+        </div>   
+
+        <br>
+        <ngx-recaptcha2 #captchaElem
+          [siteKey]="siteKey"
+          formControlName="recaptcha">
+        </ngx-recaptcha2>
+        <br>
+        
+      <button type="submit" value="iniciar sesion"   class="btn btn-dark mb-3" [disabled] = "formulario.invalid">iniciar sesion</button>
+        <br>
+      <a [routerLink]="['/recuperarContrasena']" routerLinkActive="router-link-active" > ¿olvidó su contraseña?</a>
+
+    </ul>
+
+</form>

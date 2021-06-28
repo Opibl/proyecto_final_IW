@@ -1,0 +1,230 @@
+<form [formGroup]="formulario" (ngSubmit)="Crear()" id="formulario" role="ingreso" action="/" novalidate >
+    <ul>
+        <div class="mb-3">
+            <li>
+                Nombres
+                <br>
+                <input formControlName = "nombres" type="text" placeholder = "Nombres">
+            </li>
+    
+            <span *ngIf="this.formulario.get('nombres')?.errors?.required">
+              <div id = "camp" class="alert alert-primary" role="alert" >
+                <p>¡Campo requerido!</p>
+              </div>
+            </span>
+
+            <span *ngIf="this.formulario.get('nombres')?.valid">
+              <div id = "camp2" class="alert alert-primary" role="alert" >
+                  <p>¡Campo correcto!</p>
+              </div>
+            </span>
+            
+
+            
+        </div>   
+
+        <div class="mb-3">
+          <li>
+              Apellidos
+              <br>
+              <input formControlName = "apellidos" type="text" placeholder = "Apellidos">
+          </li>
+  
+          <span *ngIf="this.formulario.get('apellidos')?.errors?.required">
+            <div id = "camp" class="alert alert-primary" role="alert">
+              <p>¡Campo requerido!</p>
+            </div>
+          </span>
+
+          <span *ngIf="this.formulario.get('apellidos')?.valid">
+            <div id = "camp2" class="alert alert-primary" role="alert" >
+                <p>¡Campo correcto!</p>
+            </div>
+          </span>
+
+      </div>   
+
+      <div class="mb-3">
+        <li>
+            Rut
+            <br>
+            <input placeholder = "11111111-1" id="rut" formControlName = "rut" type="text"  pattern="^[0-9]+-[0-9kK]{1}$" >
+            
+        </li>
+
+        <span *ngIf="this.formulario.get('rut')?.errors?.required">
+          <div id = "camp" class="alert alert-primary" role="alert">
+            <p>¡Campo requerido!</p>
+          </div>
+        </span>
+
+        <span *ngIf="this.formulario.get('rut')?.errors?.pattern">
+          <div id = "camp" class="alert alert-primary" role="alert">
+            <p>formato 11111111-1</p>
+          </div>
+        </span>
+
+        <span *ngIf="this.formulario.get('rut')?.valid">
+          <div id = "camp2" class="alert alert-primary" role="alert" >
+              <p>¡Campo correcto!</p>
+          </div>
+        </span>
+        
+    </div>   
+
+    <div class="mb-3">
+      <li>
+          Direccion
+          <br>
+          <input formControlName = "direccion" type="text" placeholder = "Dirección">
+      </li>
+
+      <span *ngIf="this.formulario.get('direccion')?.errors?.required">
+        <div id = "camp" class="alert alert-primary" role="alert">
+          <p>¡Campo requerido!</p>
+        </div>
+      </span>
+
+      <span *ngIf="this.formulario.get('direccion')?.valid">
+        <div id = "camp2" class="alert alert-primary" role="alert" >
+            <p>¡Campo correcto!</p>
+        </div>
+      </span>
+    </div>   
+
+  
+    <div class="mb-3">
+      <li>
+      Region
+      <br>
+      <select  formControlName ="region">
+          <option>Tarapacá</option>
+          <option>Antofagasta</option>
+          <option>Atacama</option>
+          <option>Coquimbo</option>
+          <option>Valparaíso</option>
+          <option>Libertador General Bernardo O'Higgins</option>
+          <option>Maule</option>
+          <option>Bio Bío</option>
+          <option>Araucanía</option>
+          <option>Los Lagos</option>
+          <option>Aysen</option>
+          <option>Magallanes</option>
+          <option>Metropolitana</option>
+          <option>Los Rios</option>
+          <option>Arica y Parinacota</option>
+          <option>Ñuble</option>
+      </select>
+      
+      <span *ngIf="this.formulario.get('region')?.errors?.required">
+        <div id = "camp" class="alert alert-primary" role="alert">
+          <p>¡Campo requerido!</p>
+        </div>
+      </span>
+      <span *ngIf="this.formulario.get('region')?.valid">
+        <div id = "camp2" class="alert alert-primary" role="alert" >
+            <p>¡Campo correcto!</p>
+        </div>
+      </span>
+
+      </li>
+    </div>
+    
+
+    <div class="mb-3">
+      <li>
+          Comuna
+          <br>
+          <input formControlName = "comuna" type="text" placeholder = "Comuna">
+      </li>
+
+      <span *ngIf="this.formulario.get('comuna')?.errors?.required">
+        <div id = "camp" class="alert alert-primary" role="alert">
+          <p>¡Campo requerido!</p>
+        </div>
+      </span>
+
+      <span *ngIf="this.formulario.get('comuna')?.valid">
+        <div id = "camp2" class="alert alert-primary" role="alert" >
+            <p>¡Campo correcto!</p>
+        </div>
+      </span>
+    </div>   
+
+
+        <div class="mb-3">
+            <li>
+                Ingresa tu email
+                <br>
+                <input formControlName = "email" type="email" placeholder="example@gmail.com">
+            </li>
+    
+            <span *ngIf="this.formulario.get('email')?.errors?.required">
+              <div id = "camp" class="alert alert-primary" role="alert">
+                <p>¡Campo requerido!</p>
+              </div>
+            </span>
+            <span *ngIf="this.formulario.get('email')?.valid">
+              <div id = "camp2" class="alert alert-primary" role="alert" >
+                  <p>¡Campo correcto!</p>
+              </div>
+            </span>
+          
+            <span *ngIf="this.formulario.get('email')?.errors?.email">
+              <div id = "camp" class="alert alert-primary" role="alert" >
+                  <p>formato invalido recuerde poner un mail valido ejemplo:example@gmail.com</p>
+              </div>
+            </span>
+        </div>   
+
+        <div class="mb-3">
+            <li>
+                Crea tu contraseña
+                <br>
+                <input formControlName = "contraseña" type="password">
+            </li>
+    
+            <span *ngIf="this.formulario.get('contraseña')?.errors?.required">
+              <div id = "camp" class="alert alert-primary" role="alert">
+                <p>¡Campo requerido!</p>
+              </div>
+            </span>
+            <span *ngIf="this.formulario.get('contraseña')?.valid">
+              <div id = "camp2" class="alert alert-primary" role="alert" >
+                  <p>¡Campo correcto!</p>
+              </div>
+            </span>
+        </div>   
+
+        <div class="mb-3">
+          <li>
+              Repetir contraseña
+              <br>
+              <input formControlName = "repetir" type="password">
+          </li>
+  
+          <span *ngIf="this.formulario.get('repetir')?.errors?.required">
+            <div id = "camp" class="alert alert-primary" role="alert">
+              <p>¡Campo requerido!</p>
+            </div>
+          </span>
+        </div>
+        <span *ngIf="this.formulario.get('repetir')?.value != this.formulario.get('contraseña')?.value">
+          <div id = "camp" class="alert alert-primary" role="alert">
+            <p>Contraseñas no coinsiden</p>
+          </div>
+        </span>
+        <span *ngIf="this.formulario.get('repetir')?.value == this.formulario.get('contraseña')?.value &&  this.formulario.get('repetir')?.value != ''">
+          <div id = "camp2" class="alert alert-primary" role="alert">
+            <p>!Bien contraseñas coinsiden</p>
+          </div>
+        </span>
+      
+
+      
+        <button type="submit" value="registrarse"   class="btn btn-primary mb-3" [disabled] = "formulario.invalid">Registrarme</button>
+         
+        
+    </ul>
+    
+</form>

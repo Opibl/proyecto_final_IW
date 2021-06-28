@@ -1,0 +1,101 @@
+[{
+  "_id": {
+    "$oid": "60da098a1fb60b3738a07a3e"
+  },
+  "nombre": "polera negra",
+  "nombreusuario": "pedro",
+  "categoria": "poleras",
+  "precio": 28000,
+  "direccion": "valparaiso",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60da0a951fb60b3738a07a3f"
+  },
+  "nombre": "polera roja",
+  "nombreusuario": "diego ",
+  "categoria": "poleras",
+  "precio": 20000,
+  "direccion": "santiago",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60da0a951fb60b3738a07a40"
+  },
+  "nombre": "poleron verde",
+  "nombreusuario": "diego ",
+  "categoria": "polerones",
+  "precio": 31000,
+  "direccion": "santiago",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60da0a951fb60b3738a07a41"
+  },
+  "nombre": "pantalon amarillo",
+  "nombreusuario": "diego ",
+  "categoria": "pantalones",
+  "precio": 20000,
+  "direccion": "santiago",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60da0e87568e362ad4d6aff1"
+  },
+  "nombre": "polera azul",
+  "nombreusuario": "fernando",
+  "categoria": "poleras",
+  "precio": 25000,
+  "direccion": "las quintas",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60da0e87568e362ad4d6aff2"
+  },
+  "nombre": "zapatos rosados",
+  "nombreusuario": "fernando",
+  "categoria": "zapatos",
+  "precio": 23000,
+  "direccion": "las quintas",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60da1179568e362ad4d6aff3"
+  },
+  "nombre": "jeans slim fit",
+  "nombreusuario": "juan perez",
+  "categoria": "jeans",
+  "precio": 22990,
+  "direccion": "santiago",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60da1179568e362ad4d6aff4"
+  },
+  "nombre": "zapatos rojos",
+  "nombreusuario": "juan perez",
+  "categoria": "zapatos",
+  "precio": 20000,
+  "direccion": "santiago",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60da12a0568e362ad4d6aff5"
+  },
+  "nombre": "pantalon amarillo",
+  "nombreusuario": "ricardo fuentes",
+  "categoria": "pantalones",
+  "precio": 20000,
+  "direccion": "valparaiso",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60da12a0568e362ad4d6aff6"
+  },
+  "nombre": "poleron amarillo",
+  "nombreusuario": "ricardo fuentes",
+  "categoria": "polerones",
+  "precio": 31000,
+  "direccion": "valparaiso",
+  "__v": 0
+}]

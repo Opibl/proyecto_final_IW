@@ -1,0 +1,37 @@
+<form [formGroup]="formulario" *ngIf="terminarcompra == 'si'" (ngSubmit)="Crear()" id="formulario" role="ingreso"  novalidate >
+    <ul>
+        <div class="mb-3">
+            <li>
+                Nombre
+                <br>
+                <input formControlName = "nombre" type="text" >
+            </li>
+    
+            <span *ngIf="this.formulario.get('nombre')?.errors?.required">
+              <div id = "camp" class="alert alert-primary" role="alert">
+                <p>¡Campo requerido!</p>
+              </div>
+            </span>
+        </div>   
+
+
+        <div class="mb-3">
+            <li>
+                Direccion
+                <br>
+                <input formControlName = "direccion" type="text">
+            </li>
+    
+            <span *ngIf="this.formulario.get('direccion')?.errors?.required">
+              <div id = "camp" class="alert alert-primary" role="alert">
+                <p>¡Campo requerido!</p>
+              </div>
+            </span>
+        </div>   
+        
+      <button type="submit" value="enviar"   class="btn btn-dark mb-3" [disabled] = "formulario.invalid">enviar</button>
+      
+
+    </ul>
+
+</form>

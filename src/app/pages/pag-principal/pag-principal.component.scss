@@ -1,0 +1,95 @@
+#productos{
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.imagen{
+    height: 13em;
+    width: 13em;
+    object-fit: cover;
+}
+
+.precio{
+    font-size: 1.2em;
+    color: red;
+    font-weight: bold;
+}
+
+.contenedor{
+    width: 20em;
+}
+
+.lista{
+    margin-left: 7em;
+    margin-top: 3em;
+    border-spacing: 2em;
+    margin-bottom: 2%;
+  
+}
+
+ul li button:hover{
+    background-color: red;
+}
+
+.nombre{
+    margin-top: 1em;
+}
+
+.form input{
+    width: 20em;
+}
+
+/*.linea{
+    height: 0.01em;
+    width: 12em;
+    background-color: rgb(173, 172, 172);
+    margin-top: 1em;
+}
+*/
+/*
+.body{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: nowrap;
+}
+*/
+
+.carousel{
+    margin-top: -1.5em;
+}
+
+.estilo-buscador{
+    display:flex;
+    width: 100%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: rgb(134, 134, 134);
+}
+
+.estilo-buscador input{
+    border-color: rgb(153, 47, 47);
+    outline-color: rgb(95, 13, 13);
+    margin-left: 3em;
+    box-shadow: 10px 10px 8px #494747;
+}
+
+.boton{
+    margin-left: -0.7em;
+    border-color: black;
+    color: rgb(255, 251, 251);
+    background-color: rgb(158, 6, 6);
+    box-shadow: 10px 10px 8px #494747;
+    
+    
+}
+.boton:hover{
+    background-color: rgb(184, 57, 7);
+    border-color: rgb(250, 249, 249);
+}

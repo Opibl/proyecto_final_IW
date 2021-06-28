@@ -1,0 +1,41 @@
+<div *ngIf="loginAdmin == 'ok'">
+
+<div class="container">
+    <div class="row align-items-start">
+        <div class="col">
+            Nombre del Producto 
+        </div>
+        <div class="col">
+            Categoria
+        </div>
+        <div class="col">
+            Precio
+        </div>
+
+    </div>
+</div>
+<br>
+
+
+<li *ngFor="let item of lista" class="lista">
+    <div class="container">
+        <div class="row align-items-start">
+            <div class="col">
+                {{item.nombre}}
+            </div>
+            <div class="col">
+                {{item.categoria}}
+            </div>
+            <div class="col">
+                {{item.precio}}
+            </div>
+
+        </div>
+    </div>
+    
+</li>
+<br>
+<p > Total De Ventas: ${{Total}}</p>
+
+<button class = "btn btn-dark mb-3" (click) ='volver()'>volver</button>
+</div>

@@ -1,0 +1,62 @@
+<div *ngIf="loginAdmin == 'ok'">
+
+<div class="container">
+    <div class="row align-items-start">
+        <div class="col">
+            Nombres
+        </div>
+        <div class="col">
+            apellidos
+        </div>
+        <div class="col">
+            rut
+        </div>
+        <div class="col">
+            direccion
+        </div>
+        <div class="col">
+            region
+        </div>
+        <div class="col">
+            comuna
+        </div>
+        <div class="col">
+            email
+        </div>
+
+    </div>
+</div>
+<br>
+
+<div *ngIf="loginAdmin == 'ok'">
+<li *ngFor="let item of lista" class="lista">
+    <div class="container">
+        <div class="row align-items-start">
+            <div class="col">
+                {{item.nombres}}
+            </div>
+            <div class="col">
+                {{item.apellidos}}
+            </div>
+            <div class="col">
+                {{item.rut}}
+            </div>
+            <div class="col">
+                {{item.direccion}}
+            </div>
+            <div class="col">
+                {{item.region}}
+            </div>
+            <div class="col">
+                {{item.comuna}}
+            </div>
+            <div class="col">
+                {{item.email}}
+            </div>
+        </div>
+    </div>
+</li>
+
+<button class = "btn btn-dark mb-3" (click) ='volver()'>volver</button>
+
+</div>

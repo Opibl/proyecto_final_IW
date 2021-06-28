@@ -1,0 +1,232 @@
+[{
+  "_id": {
+    "$oid": "60c57e78f55dc82ca4150ca3"
+  },
+  "nombre": "zapatos rosados",
+  "categoria": "zapatos",
+  "descripcion": "No lavar,\nNo utilizar productos blanqueadores,\nNo planchar.",
+  "cantidad": 5,
+  "precio": 23000,
+  "imagen": "img/zapatos_rosados.jpg",
+  "puntuacion": 3
+},{
+  "_id": {
+    "$oid": "60c57e78f55dc82ca4150ca4"
+  },
+  "nombre": "polera negra",
+  "categoria": "poleras",
+  "descripcion": "Se puede lavar a máquina a un máximo de 30 °C\nNo utilizar productos blanqueadores\nPlanchar a temperatura media\nSe puede secar en secadora a baja temperatura\nColgar para secar",
+  "cantidad": 1,
+  "precio": 28000,
+  "imagen": "img/polera_negra.jpg",
+  "puntuacion": 2.5
+},{
+  "_id": {
+    "$oid": "60c57e78f55dc82ca4150ca5"
+  },
+  "nombre": "pantalon verde",
+  "categoria": "pantalones",
+  "descripcion": "Se puede lavar a máquina a un máximo de 30 °C\nNo utilizar productos blanqueadores\nPlanchar a temperatura media\nSe puede secar en secadora a baja temperatura\nColgar para secar",
+  "cantidad": 0,
+  "precio": 24000,
+  "imagen": "img/pantalon_verde.jpg",
+  "puntuacion": 5
+},{
+  "_id": {
+    "$oid": "60c57e78f55dc82ca4150ca6"
+  },
+  "nombre": "polera azul",
+  "categoria": "poleras",
+  "descripcion": "Se puede lavar a máquina a un máximo de 30 °C\nNo utilizar productos blanqueadores\nPlanchar a temperatura media\nSe puede secar en secadora a baja temperatura\nColgar para secar",
+  "cantidad": 3,
+  "precio": 25000,
+  "imagen": "img/polera_azul.jpg",
+  "puntuacion": 5
+},{
+  "_id": {
+    "$oid": "60c57e78f55dc82ca4150ca7"
+  },
+  "nombre": "zapatos blancos",
+  "categoria": "zapatos",
+  "descripcion": "No lavar,\nNo utilizar productos blanqueadores,\nNo planchar.",
+  "cantidad": 4,
+  "precio": 25000,
+  "imagen": "img/zapatos_blanco.jpg",
+  "puntuacion": 5
+},{
+  "_id": {
+    "$oid": "60d169897c30790fc0969ad0"
+  },
+  "nombre": "polera roja",
+  "categoria": "poleras",
+  "descripcion": "Se puede lavar a máquina a un máximo de 30 °C\nNo utilizar productos blanqueadores\nPlanchar a temperatura media\nSe puede secar en secadora a baja temperatura\nColgar para secar",
+  "cantidad": 498,
+  "precio": 20000,
+  "imagen": "img/polera_roja.jpg",
+  "puntuacion": 5
+},{
+  "_id": {
+    "$oid": "60d169f47c30790fc0969ad1"
+  },
+  "nombre": "poleron rojo",
+  "categoria": "polerones",
+  "descripcion": "Se puede lavar a máquina a un máximo de 30 °C\nNo utilizar productos blanqueadores\nPlanchar a temperatura media\nSe puede secar en secadora a baja temperatura\nColgar para secar",
+  "cantidad": 497,
+  "precio": 32000,
+  "imagen": "img/poleron_rojo.jpg",
+  "puntuacion": 5
+},{
+  "_id": {
+    "$oid": "60d16a377c30790fc0969ad2"
+  },
+  "nombre": "poleron verde",
+  "categoria": "polerones",
+  "descripcion": "Se puede lavar a máquina a un máximo de 30 °C\nNo utilizar productos blanqueadores\nPlanchar a temperatura media\nSe puede secar en secadora a baja temperatura\nColgar para secar",
+  "cantidad": 498,
+  "precio": 31000,
+  "imagen": "img/poleron_verde.jpg",
+  "puntuacion": 5
+},{
+  "_id": {
+    "$oid": "60d16d2a7c30790fc0969ad3"
+  },
+  "nombre": "poleron amarillo",
+  "categoria": "polerones",
+  "descripcion": "Se puede lavar a máquina a un máximo de 30 °C\nNo utilizar productos blanqueadores\nPlanchar a temperatura media\nSe puede secar en secadora a baja temperatura\nColgar para secar",
+  "cantidad": 499,
+  "precio": 31000,
+  "imagen": "img/poleron_amarillo.jpg",
+  "puntuacion": 5
+},{
+  "_id": {
+    "$oid": "60d16e0c7c30790fc0969ad4"
+  },
+  "nombre": "pantalon amarillo",
+  "categoria": "pantalones",
+  "descripcion": "Se puede lavar a máquina a un máximo de 30 °C\nNo utilizar productos blanqueadores\nPlanchar a temperatura media\nSe puede secar en secadora a baja temperatura\nColgar para secar",
+  "cantidad": 498,
+  "precio": 20000,
+  "imagen": "img/pantalon_amarillo.jpg",
+  "puntuacion": 5
+},{
+  "_id": {
+    "$oid": "60d815a859979925e04e68a7"
+  },
+  "nombre": "zapatos rojos",
+  "categoria": "zapatos",
+  "descripcion": "Se puede lavar a máquina a un máximo de 30 °C\nNo utilizar productos blanqueadores\nPlanchar a temperatura media\nSe puede secar en secadora a baja temperatura\nColgar para secar",
+  "cantidad": 499,
+  "precio": 20000,
+  "imagen": "img/zapatos_rojos.jpg",
+  "puntuacion": 5
+},{
+  "_id": {
+    "$oid": "60d8172459979925e04e68a8"
+  },
+  "nombre": "jeans slim fit",
+  "categoria": "jeans",
+  "descripcion": "Se puede lavar a máquina a un máximo de 30 °C\nNo utilizar productos blanqueadores\nPlanchar a temperatura media\nSe puede secar en secadora a baja temperatura\nColgar para secar",
+  "cantidad": 99,
+  "precio": 22990,
+  "imagen": "img/jeans_slim_fit.jpg",
+  "puntuacion": 5
+},{
+  "_id": {
+    "$oid": "60d819cf59979925e04e68a9"
+  },
+  "nombre": "short negro",
+  "categoria": "shorts",
+  "descripcion": "Se puede lavar a máquina a un máximo de 30 °C\nNo utilizar productos blanqueadores\nPlanchar a temperatura media\nSe puede secar en secadora a baja temperatura\nColgar para secar",
+  "cantidad": 100,
+  "precio": 6990,
+  "imagen": "img/short_negro.jpg",
+  "puntuacion": 5
+},{
+  "_id": {
+    "$oid": "60d81ab259979925e04e68aa"
+  },
+  "nombre": "short marron",
+  "categoria": "shorts",
+  "descripcion": "Se puede lavar a máquina a un máximo de 30 °C\nNo utilizar productos blanqueadores\nPlanchar a temperatura media\nSe puede secar en secadora a baja temperatura\nColgar para secar",
+  "cantidad": 100,
+  "precio": 20990,
+  "imagen": "img/short_marron.jpg",
+  "puntuacion": 5
+},{
+  "_id": {
+    "$oid": "60d81b2f59979925e04e68ab"
+  },
+  "nombre": "camisa azul",
+  "categoria": "camisas",
+  "descripcion": "Se puede lavar a máquina a un máximo de 30 °C\nNo utilizar productos blanqueadores\nPlanchar a temperatura media\nSe puede secar en secadora a baja temperatura\nColgar para secar",
+  "cantidad": 100,
+  "precio": 17990,
+  "imagen": "img/camisa_azul.jpg",
+  "puntuacion": 5
+},{
+  "_id": {
+    "$oid": "60da144fd8308b2c40cb1e2b"
+  },
+  "nombre": "camisa verde",
+  "categoria": "camisas",
+  "descripcion": "Se puede lavar a máquina a un máximo de 30 °C\nNo utilizar productos blanqueadores\nPlanchar a temperatura media\nSe puede secar en secadora a baja temperatura\nColgar para secar",
+  "cantidad": 100,
+  "precio": 17990,
+  "imagen": "img/camisa_verde.jpg",
+  "puntuacion": 5
+},{
+  "_id": {
+    "$oid": "60da1582d8308b2c40cb1e2c"
+  },
+  "nombre": "poleron negro",
+  "categoria": "polerones",
+  "descripcion": "Se puede lavar a máquina a un máximo de 30 °C\nNo utilizar productos blanqueadores\nPlanchar a temperatura media\nSe puede secar en secadora a baja temperatura\nColgar para secar",
+  "cantidad": 499,
+  "precio": 31000,
+  "imagen": "img/poleron_negro.jpg",
+  "puntuacion": 5
+},{
+  "_id": {
+    "$oid": "60da16a2d8308b2c40cb1e2d"
+  },
+  "nombre": "pantalon rojo",
+  "categoria": "pantalones",
+  "descripcion": "Se puede lavar a máquina a un máximo de 30 °C\nNo utilizar productos blanqueadores\nPlanchar a temperatura media\nSe puede secar en secadora a baja temperatura\nColgar para secar",
+  "cantidad": 30,
+  "precio": 24000,
+  "imagen": "img/pantalon_rojo.jpg",
+  "puntuacion": 5
+},{
+  "_id": {
+    "$oid": "60da1762d8308b2c40cb1e2e"
+  },
+  "nombre": "short verde",
+  "categoria": "shorts",
+  "descripcion": "Se puede lavar a máquina a un máximo de 30 °C\nNo utilizar productos blanqueadores\nPlanchar a temperatura media\nSe puede secar en secadora a baja temperatura\nColgar para secar",
+  "cantidad": 100,
+  "precio": 20990,
+  "imagen": "img/short_verde.jpg",
+  "puntuacion": 5
+},{
+  "_id": {
+    "$oid": "60da183dd8308b2c40cb1e2f"
+  },
+  "nombre": "jeans azul claro",
+  "categoria": "jeans",
+  "descripcion": "Se puede lavar a máquina a un máximo de 30 °C\nNo utilizar productos blanqueadores\nPlanchar a temperatura media\nSe puede secar en secadora a baja temperatura\nColgar para secar",
+  "cantidad": 99,
+  "precio": 22990,
+  "imagen": "img/jeans_azul_claro.jpg",
+  "puntuacion": 5
+},{
+  "_id": {
+    "$oid": "60da208f1eed600c10a8b971"
+  },
+  "nombre": "camisa negra",
+  "categoria": "camisas",
+  "descripcion": "Se puede lavar a máquina a un máximo de 30 °C\nNo utilizar productos blanqueadores\nPlanchar a temperatura media\nSe puede secar en secadora a baja temperatura\nColgar para secar",
+  "cantidad": 100,
+  "precio": 16990,
+  "imagen": "img/camisa_negra.jpg",
+  "puntuacion": 5
+}]

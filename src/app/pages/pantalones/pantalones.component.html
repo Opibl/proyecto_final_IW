@@ -1,0 +1,15 @@
+<ul id="productos">
+
+
+    <li *ngFor="let item of lista" class="lista">
+           <a routerLink="/producto/{{item._id}}" routerLinkActive="router-link-active"><img class="imagen" src="assets/{{item.imagen}}"></a>
+           <p class="nombre">{{item.nombre|uppercase}}</p>
+           <p class="precio">${{item.precio}}</p>
+           <button *ngIf="item.cantidad>0" type="button" value="adicionarCarrito"   class="btn btn-dark mb-3" (click)="adicionarCarrito(item)" >Adicionar al Carrito</button>
+           <span *ngIf="item.cantidad==0">No disponible</span>
+           <br>
+           <ngb-rating [(rate)]="item.puntuacion"></ngb-rating>
+           <textarea  *ngIf= "nologin != true" rows="10" cols="50" placeholder="escribe un comentario aqui"></textarea>
+           
+    </li>
+</ul>
